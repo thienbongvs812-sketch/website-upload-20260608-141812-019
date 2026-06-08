@@ -1,0 +1,17 @@
+{
+  "site_title": "国产影视视频免费在线观看·高清电影大全及精选片单-国产好剧推荐",
+  "logo": "国产好剧推荐",
+  "movie_count": 2000,
+  "detail_pages": 2000,
+  "category_pages": 10,
+  "video_source_count": 20,
+  "image_reference_range": "1.jpg-150.jpg",
+  "generated_files": {
+    "home": "index.html",
+    "categories": "categories.html",
+    "rankings": "rankings.html",
+    "search": "search.html",
+    "assets_css": "assets/styles.css",
+    "assets_js": "assets/site.js"
+  }
+}

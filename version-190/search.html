@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索 - 日韩电视剧推荐 - 免费高清视频在线观看与影视大全-日韩好剧推荐</title>
+  <meta name="description" content="搜索日剧、韩剧、电影、年份、地区与标签，快速找到可在线观看的影视内容。">
+  <meta name="keywords" content="日韩电视剧,日剧推荐,韩剧推荐,在线观看,免费视频,影视大全,日韩好剧,高清电视剧,日韩剧集,搜索,影片搜索">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="./index.html" aria-label="日韩好剧推荐">
+      <span class="logo-mark">▶</span>
+      <span>日韩好剧推荐</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link active" href="./index.html">首页</a> <a class="nav-link" href="./categories.html">分类</a> <a class="nav-link" href="./ranking.html">热播榜</a> <a class="nav-link" href="./category-jk-drama.html">日剧韩剧</a> <a class="nav-link" href="./category-love-youth.html">爱情青春</a>
+    </nav>
+    <form class="nav-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索剧名、地区、标签" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" data-menu-toggle>☰</button>
+  </div>
+  <div class="mobile-nav" data-mobile-nav>
+    <a class="mobile-link active" href="./index.html">首页</a> <a class="mobile-link" href="./categories.html">分类</a> <a class="mobile-link" href="./ranking.html">热播榜</a> <a class="mobile-link" href="./category-jk-drama.html">日剧韩剧</a> <a class="mobile-link" href="./category-love-youth.html">爱情青春</a>
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main>
+  <section class="page-hero search-hero">
+    <div class="container">
+      <span class="eyebrow">Search</span>
+      <h1>影片搜索</h1>
+      <p>输入剧名、地区、年份或标签，快速找到相关影视内容。</p>
+    </div>
+  </section>
+  <section class="container section-block">
+    <form class="search-page-form" action="./search.html" method="get" data-search-form>
+      <input type="search" name="q" placeholder="输入影片名、标签或年份" aria-label="搜索影片" data-search-box>
+      <button type="submit">搜索</button>
+    </form>
+    <div id="search-results" class="movie-grid full-grid"></div>
+    <p class="empty-state" data-search-empty>请输入关键词开始搜索</p>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-logo" href="./index.html">日韩好剧推荐</a>
+      <p>精选日韩电视剧、电影与高分剧集，提供清晰流畅的影视浏览体验。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./category-jk-drama.html">日剧韩剧</a><a href="./category-love-youth.html">爱情青春</a><a href="./category-suspense-crime.html">悬疑犯罪</a><a href="./category-comedy-healing.html">喜剧治愈</a><a href="./category-sci-fi-fantasy.html">科幻奇幻</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-urban-family.html">都市家庭</a><a href="./category-costume-history.html">古装历史</a><a href="./category-classic-cinema.html">经典影像</a><a href="./category-annual-hot.html">年度新片</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 日韩好剧推荐 · 高清影视大全</div>
+</footer>
+<script src="./assets/search-data.js"></script>
+<script src="./assets/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
